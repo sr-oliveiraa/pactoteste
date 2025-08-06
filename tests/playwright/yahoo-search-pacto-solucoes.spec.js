@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test('Buscar Pacto Yahoo', async ({ page }) => {
-  // Acessa o Yahoo
+
   await page.goto('https://br.search.yahoo.com');
 
   
