@@ -1,0 +1,15 @@
+{
+  "name": "teste-pacto-solucoes",
+  "version": "1.0.0",
+  "description": "Teste automatizado para busca Pacto Soluções no Yahoo",
+  "scripts": {
+    "cypress": "cypress open",
+    "cypress:run": "cypress run",
+    "playwright": "playwright test",
+    "install": "npm install && playwright install"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.0",
+    "@playwright/test": "^1.40.0"
+  }
+}
